@@ -1,8 +1,11 @@
 import java.util.Scanner;
+
+
 public final class Main extends Board {
-    Scanner userInput = new Scanner(System.in);
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+        Board gameBoard = new Board();
 
-    
-
-
+        userInput.close();
+    }
 }
